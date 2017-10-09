@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace romainsola\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
