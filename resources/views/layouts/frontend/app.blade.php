@@ -37,108 +37,46 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" />
 </head>
 
-<body>
+<body class="width-100">
 
 <!-- start header -->
 <header>
     <!-- start navigation -->
-    <nav class="navbar full-width-pull-menu nav-dark-transparent navbar-fixed-top no-border-top white-link no-transition">
-        <!-- start navigation panel -->
-        <div class="container-fluid nav-header-container height-100px sm-height-100px xs-height-80px padding-three-half-lr">
+    <nav class="navbar navbar-default bootsnav navbar-top header-dark bg-transparent nav-box-width white-link padding-four-lr menu-logo-center">
+        <div class="container nav-header-container">
             <div class="row">
                 <!-- start logo -->
-                <div class="col-md-2 col-sm-3 col-xs-8 pull-left">
-                    <a href="index.html" title="Pofo" class="logo"><img src="images/logo-full-white.png" data-at2x="images/logo-full-white@2x.png" alt="Pofo"></a>
+                <div class="center-logo">
+                    <a href="index.html" title="Pofo" class="logo"><img src="images/logo.png" data-at2x="images/logo@2x.png" class="logo-dark" alt="Pofo"><img src="images/logo-white.png" data-at2x="images/logo-white@2x.png" alt="Pofo" class="logo-light default"></a>
                 </div>
                 <!-- end logo -->
-                <!-- start main menu -->
-                <div class="col-md-10 col-sm-9 col-xs-4">
-                    <div class="menu-wrap full-screen no-padding">
-                        <div class="col-sm-6 no-padding hidden-xs">
-                            <div class="cover-background full-screen" style="background-image:url('images/menu-background-1.png')">
-                                <div class="opacity-medium bg-extra-dark-gray"></div>
-                                <div class="position-absolute height-100 width-100 text-center">
-                                    <div class="display-table height-100 width-100">
-                                        <div class="display-table-cell height-100 width-100 vertical-align-middle position-relative">
-                                            <a href="index.html"><img alt="" src="images/logo-white-big.png" data-at2x="images/logo-white-big@2x.png"></a>
-                                            <div class="position-absolute bottom-50 text-center width-100 margin-30px-bottom">
-                                                <div class="text-small text-extra-medium-gray">&COPY; 2017 POFO is Proudly Powered by <a href="http://www.themezaa.com/" title="ThemeZaa" class="text-extra-medium-gray text-deep-pink-hover" target="_blank">ThemeZaa</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 no-padding bg-white full-screen">
-                            <div class="position-absolute height-100 width-100 overflow-auto">
-                                <div class="display-table height-100 width-100">
-                                    <div class="display-table-cell height-100 width-100 vertical-align-middle padding-fourteen-lr alt-font link-style-2 sm-padding-seven-lr xs-padding-15px-lr">
-                                        <!-- start menu -->
-                                        <ul class="font-weight-500 xs-no-padding-left">
-                                            <!-- start menu item -->
-                                            <li class="dropdown">
-                                                <a href="index.html">Home</a><span data-toggle="dropdown" class="dropdown-toggle"></span>
-                                            </li>
-                                            <!-- end menu item -->
-                                            <!-- start menu item -->
-                                            <li class="dropdown">
-                                                <a href="about-us-simple.html">Pages</a><span data-toggle="dropdown" class="dropdown-toggle"></span>
-                                            </li>
-                                            <!-- end menu item -->
-                                            <!-- start menu item -->
-                                            <li class="dropdown">
-                                                <a href="portfolio-full-width-masonry-overlay.html">Portfolio</a><span data-toggle="dropdown" class="dropdown-toggle"></span>
-                                            </li>
-                                            <!-- end menu item -->
-                                            <!-- start menu item -->
-                                            <li class="dropdown">
-                                                <a href="blog-standard-full-width.html">Blog</a><span data-toggle="dropdown" class="dropdown-toggle"></span>
-                                            </li>
-                                            <!-- end menu item -->
-                                            <!-- start menu item -->
-                                            <li class="dropdown">
-                                                <a href="javascript:void(0);">Elements</a><span data-toggle="dropdown" class="dropdown-toggle"></span>
-                                            </li>
-                                            <!-- end menu item -->
-                                            <!-- start menu item -->
-                                            <li class="dropdown">
-                                                <a href="javascript:void(0);">Features</a><span data-toggle="dropdown" class="dropdown-toggle"></span>
-                                            </li>
-                                            <!-- end menu item -->
-                                        </ul>
-                                        <!-- end menu -->
-                                        <!-- start social links -->
-                                        <div class="margin-fifteen-top padding-35px-left xs-no-padding-left">
-                                            <div class="icon-social-medium margin-three-bottom">
-                                                <a href="https://www.facebook.com/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                                <a href="https://twitter.com/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                                <a href="https://dribbble.com/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                                                <a href="https://plus.google.com" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                                <a href="https://www.tumblr.com/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-one-lr"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- start social links -->
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="close-button-menu" id="close-button"></button>
-                        </div>
-                    </div>
-                    <!-- end main menu -->
-                    <button class="navbar-toggle mobile-toggle" type="button" id="open-button" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                <div class="col-md-12 col-sm-12 col-xs-12 accordion-menu">
+                    <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
+                        <span class="sr-only">toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
+                    <div class="navbar-collapse collapse no-padding-right" id="navbar-collapse-toggle-1">
+                        <ul class="nav navbar-nav navbar-left text-right no-margin alt-font text-normal width-40 sm-width-100 sm-text-left" data-in="fadeIn" data-out="fadeOut">
+                            <!-- start menu item -->
+                            <li class="dropdown megamenu-fw">
+                                <a href="javascript:void(0);">Portfolio</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right no-margin alt-font text-normal width-40 sm-width-100" data-in="fadeIn" data-out="fadeOut">
+                            <!-- start menu item -->
+                            <li class="dropdown megamenu-fw">
+                                <a href="javascript:void(0);">Contact</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- end main menu -->
             </div>
         </div>
-        <!-- end navigation panel -->
     </nav>
     <!-- end navigation -->
 </header>
-<!-- end header -->
 
 
 @yield('content')
